@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <div id="header">
+        <h1>Stirling, Castaneda, Uchegbu, Doyle Manager Thing</h1>
+        <%= link_to "Offices", offices_path %> | <%= link_to "Professors", professors_path %> |
+        <%= link_to "Course_Assignments", course_assignments_path %> | 
+        <%= link_to "Courses", courses_path %>
+
+    </div>
+
     <%= yield %>
   </body>
 </html>
